@@ -8,7 +8,7 @@
 @layer base {
   htlm,
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
     @apply antialiased bg-gray-100;
   }
 
