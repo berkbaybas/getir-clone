@@ -11,7 +11,9 @@
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
     @apply antialiased bg-gray-100;
   }
+}
 
+@layer components {
   .menu-item {
     @apply px-5 flex items-center mt-1 mr-[1px]  rounded-t-md hover:bg-primary-brand-color;
   }
