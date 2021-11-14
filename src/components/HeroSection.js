@@ -19,7 +19,7 @@ const HeroSection = () => {
     arrows: false
   }
   return (
-    <div className="h-auto sm:h-[500px] bg-brand-color relative before:bg-gradient-to-r before:from-purple-600 before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
+    <div className="h-auto sm:h-[500px] bg-brand-color relative before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
       <Slider {...settings}>
         <div>
           <img
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="grid gap-y-3">
             <div className="flex gap-x-2">
               <ReactFlagsSelect
-                countries={['US', 'GB', 'FR', 'DE', 'IT', 'TR']}
+                countries={['US', 'GB', 'TR']}
                 customLabels={{
                   US: '+1',
                   GB: '+50',

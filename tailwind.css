@@ -11,17 +11,24 @@
     font-family: 'Open Sans', sans-serif;
     @apply antialiased bg-gray-100;
   }
-}
 
-.flag-select{
-    @apply -mb-5
-}
+  .menu-item {
+    @apply px-5 flex items-center mt-1 mr-[1px]  rounded-t-md hover:bg-primary-brand-color;
+  }
 
-.flag-select button {
-  @apply h-14 border-2 border-gray-200 rounded-md bg-white transition-colors hover:border-primary-brand-color;
-}
+  .menu-item.active {
+    @apply bg-primary-brand-color;
+  }
 
-.flag-select button > span span:nth-child(2) {
-  @apply text-sm pl-2;
-}
+  .flag-select {
+    @apply -mb-5;
+  }
 
+  .flag-select button {
+    @apply h-14 border-2 border-gray-200 rounded-md bg-white transition-colors hover:border-primary-brand-color;
+  }
+
+  .flag-select button > span span:nth-child(2) {
+    @apply text-sm pl-2;
+  }
+}
