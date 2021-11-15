@@ -33,4 +33,8 @@
   .flag-select button > span span:nth-child(2) {
     @apply text-sm pl-2;
   }
+
+  .right-initial {
+    right: initial;
+  }
 }
