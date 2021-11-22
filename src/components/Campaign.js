@@ -8,7 +8,7 @@ import Title from 'components/ui/Title.js'
 
 import bannersData from 'api/banners.json'
 
-const Campaign = () => {
+const Campaign = ({ className }) => {
   const [banners, setBanners] = useState([])
   const settings = {
     infinite: true,
@@ -17,7 +17,26 @@ const Campaign = () => {
     autoplay: true,
     autoplaySpeed: 3500,
     cssEase: 'linear',
-    arrows: true
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          arrows: false
+        }
+      }
+    ]
   }
 
   useEffect(() => {
@@ -25,12 +44,12 @@ const Campaign = () => {
   }, [])
 
   return (
-    <div className="container mx-auto py-4">
-      <Title>Kampanyalar</Title>
-      <Slider {...settings} className="-mx-2">
+    <div className={`container mx-auto lg:py-4 ${className}`}>
+      <Title className="hidden lg:block">Kampanyalar</Title>
+      <Slider {...settings} className="-mx-2 -px-2">
         {banners &&
           banners.map((banner, index) => (
-            <Banner key={index} banner={banner}></Banner>
+            <Banner key={index} banner={banner}></Banner> //TODO Padding problem
           ))}
       </Slider>
     </div>

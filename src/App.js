@@ -9,16 +9,16 @@ import Footer from 'components/Footer'
 
 function App() {
   return (
-    <>
-      <Header></Header>
-      <HeroSection></HeroSection>
-      <Categories></Categories>
-      <Campaign></Campaign>
-      <Favorites></Favorites>
-      <MobileApp></MobileApp>
-      <Cards></Cards>
-      <Footer></Footer>
-    </>
+    <div className="flex flex-col">
+      <Header className="order-first"></Header>
+      <HeroSection className="hidden"></HeroSection>
+      <Categories className="order-2"></Categories>
+      <Campaign className="order-1"></Campaign>
+      <Favorites className="order-3"></Favorites>
+      <MobileApp className="order-4"></MobileApp>
+      <Cards className="order-5"></Cards>
+      <Footer className="order-last"></Footer>
+    </div>
   )
 }
 

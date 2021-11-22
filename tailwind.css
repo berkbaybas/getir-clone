@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 @layer base {
-  htlm,
+  html,
   body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
     @apply antialiased bg-gray-100;
