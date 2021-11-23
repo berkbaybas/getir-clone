@@ -1,6 +1,6 @@
 # Getir Clone
 
-This project was bootstrapped with [https://getir-clone-git-master-berkbaybas.vercel.app/](https://getir-clone-git-master-berkbaybas.vercel.app/).
+Demo: [https://getir-clone-git-master-berkbaybas.vercel.app/](https://getir-clone-git-master-berkbaybas.vercel.app/).
 
 ## Clone Images
 
