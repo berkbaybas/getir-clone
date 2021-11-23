@@ -744,24 +744,20 @@ html,
   z-index: 20;
 }
 
-.order-1 {
-  order: 1;
+.order-first {
+  order: -9999;
 }
 
 .order-2 {
   order: 2;
 }
 
+.order-1 {
+  order: 1;
+}
+
 .order-3 {
   order: 3;
-}
-
-.order-last {
-  order: 9999;
-}
-
-.order-first {
-  order: -9999;
 }
 
 .order-4 {
@@ -770,6 +766,10 @@ html,
 
 .order-5 {
   order: 5;
+}
+
+.order-last {
+  order: 9999;
 }
 
 .mx-auto {
@@ -831,10 +831,6 @@ html,
 
 .flex {
   display: flex;
-}
-
-.\!flex {
-  display: flex !important;
 }
 
 .grid {
@@ -935,10 +931,6 @@ html,
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1033,11 +1025,6 @@ html,
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-brand-gray {
-  --tw-bg-opacity: 1;
-  background-color: rgba(240, 248, 255, var(--tw-bg-opacity));
-}
-
 .bg-brand-color {
   --tw-bg-opacity: 1;
   background-color: rgba(76, 51, 152, var(--tw-bg-opacity));
@@ -1063,11 +1050,6 @@ html,
   background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
-}
-
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
@@ -1086,11 +1068,6 @@ html,
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-4 {
@@ -1128,9 +1105,8 @@ html,
   padding-bottom: 0.5rem;
 }
 
-.py-3 {
+.pt-3 {
   padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pb-6 {
@@ -1147,10 +1123,6 @@ html,
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-center {
@@ -1404,6 +1376,22 @@ html,
     right: initial;
   }
 
+  .md\:order-3 {
+    order: 3;
+  }
+
+  .md\:order-4 {
+    order: 4;
+  }
+
+  .md\:order-5 {
+    order: 5;
+  }
+
+  .md\:order-6 {
+    order: 6;
+  }
+
   .md\:ml-12 {
     margin-left: 3rem;
   }
@@ -1476,10 +1464,6 @@ html,
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1502,6 +1486,10 @@ html,
 
   .xl\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
 

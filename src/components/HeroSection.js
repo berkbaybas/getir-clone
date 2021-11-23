@@ -48,8 +48,7 @@ const HeroSection = ({ className }) => {
             </h3>
           </div>
           <div className="w-[400px] bg-gray-50 p-6 rounded-lg">
-            {' '}
-            //TODO Show responsive mobile device
+            {/* TODO Show responsive mobile device */}
             <h4 className="text-primary-brand-color text-center font-semibold mb-4">
               Giriş yap veya kayıt ol
             </h4>
