@@ -4,8 +4,8 @@ This project was bootstrapped with [https://getir-clone-git-master-berkbaybas.ve
 
 ## Clone Images
 
-![image](https://user-images.githubusercontent.com/25961421/143096541-482ab840-1cc9-43f6-8c56-0caf6b4ce258.png)
-![image](https://user-images.githubusercontent.com/25961421/143096605-f022ac69-45df-4a06-a196-7b267f27e770.png)
+<img src="https://user-images.githubusercontent.com/25961421/143096541-482ab840-1cc9-43f6-8c56-0caf6b4ce258.png" width="800">
+<img src="https://user-images.githubusercontent.com/25961421/143096605-f022ac69-45df-4a06-a196-7b267f27e770.png" width="400">
 
 ## Tools
 
