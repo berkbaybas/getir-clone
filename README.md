@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [https://getir-clone-git-master-berkbaybas.vercel.app/](https://getir-clone-git-master-berkbaybas.vercel.app/).
 
+## Clone Images
+
+![image](https://user-images.githubusercontent.com/25961421/143096541-482ab840-1cc9-43f6-8c56-0caf6b4ce258.png)
+![image](https://user-images.githubusercontent.com/25961421/143096605-f022ac69-45df-4a06-a196-7b267f27e770.png)
+
 ## Tools
 
 React,
@@ -19,4 +24,4 @@ You will also see any lint errors in the console.
 
 ### `npm run watch`
 
-Runs the tailwind.css jit compiler. 
+Runs the tailwind.css jit compiler.
