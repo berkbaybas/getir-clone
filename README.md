@@ -1,6 +1,7 @@
 # Getir Clone
 
 Demo: [https://getir-clone-git-master-berkbaybas.vercel.app/](https://getir-clone-git-master-berkbaybas.vercel.app/).
+Inspiring and pair coding from Tayfun Erbilen youtube tutorial(Prototurk)
 
 ## Clone Images
 
