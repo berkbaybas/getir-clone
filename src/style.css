@@ -923,6 +923,10 @@ html,
           transform: var(--tw-transform);
 }
 
+.cursor-text {
+  cursor: text;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1105,6 +1109,11 @@ html,
   padding-bottom: 0.5rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -1123,6 +1132,14 @@ html,
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -1281,6 +1298,10 @@ html,
 .before\:to-transparent::before {
   content: "";
   --tw-gradient-to: transparent;
+}
+
+.hover\:cursor-text:hover {
+  cursor: text;
 }
 
 .hover\:border-primary-brand-color:hover {
@@ -1486,10 +1507,6 @@ html,
 
   .xl\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
 

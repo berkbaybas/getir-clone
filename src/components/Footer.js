@@ -113,7 +113,7 @@ function Footer({ className }) {
             <div className="flex flex-col md:flex-row items-center">
               &copy; 2021 Getir
               <a href="#" className="text-primary-brand-color ml-1">
-                Bilgi Topmlumu Hizmetleri
+                Bilgi Toplumu Hizmetleri
               </a>
             </div>
             <nav className="flex gap-x-2 items-center justify-center">

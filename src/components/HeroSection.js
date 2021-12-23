@@ -69,7 +69,7 @@ const HeroSection = ({ className }) => {
                 <label className="flex-1 relative block">
                   <input
                     required
-                    className="h-14 px-4 pt-2 border-2 border-gray-200 rounded-md w-full transition-colors hover:border-primary-brand-color focus:border-primary-brand-color outline-none peer"
+                    className="h-14 px-4 pt-2 border-2 border-gray-200 rounded-md w-full transition-colors hover:border-primary-brand-color focus:border-primary-brand-color outline-none peer hover:cursor-text"
                   />
                   <span className="absolute top-0 left-0 h-full px-4 flex items-center text-sm text-gray-600 transition-all peer-focus:h-7  peer-focus:text-primary-brand-color peer-focus:text-xs peer-valid:h-7  peer-valid:text-primary-brand-color peer-valid:text-xs">
                     Telefon Numarası
@@ -79,7 +79,7 @@ const HeroSection = ({ className }) => {
               <button className="bg-brand-yellow text-brand-color hover:bg-brand-color hover:text-brand-yellow transition-colors h-12 w-full flex items-center justify-center text-sm font-semibold rounded-md">
                 Telefon numarası ile devam et
               </button>
-              <hr className="h-[1px] my-2" />
+              <hr className="h-[1px]" />
               <button className="bg-blue-700 bg-opacity-10 text-blue-700 hover:bg-blue-700 hover:text-white transition-colors h-12 px-2 w-full flex items-center text-sm font-semibold rounded-md">
                 <FaFacebook size="24" />
                 <span className="mx-auto ">Facebook ile giriş yap</span>

@@ -11,7 +11,7 @@ function Cards({ className }) {
 
   return (
     <div className={`${className}`}>
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-4 p-4 rounded-lg">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-4 pt-4 pb-8 rounded-lg">
         {cards &&
           cards.map((card) => (
             <div className="flex flex-col justify-center items-center rounded bg-white shadow-sm px-4 py-8">
